@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  HEADER  */
+
+.header{
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.btn{
+    background-color: #ee626b;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #ffffff;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #f2858c;
+}
+
+.header-links a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+/* LANDING PAGE */
+
+.landing-page{
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: #ffffff;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.landing-page-left-section{
+    width: 500px;
+}
+
+.landing-page-search input{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0px 25px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.landing-page-search button{
+    position: absolute;
+    left: 280px;
+    height: 30px;
+}
+
+.landing-page-image-container img{
+    border-radius: 20px;
+    width: 250px;
+}
+
+/* TRENDING GAMES */
+
+.trending-container{
+    padding: 25px 50px;
+}
+
+.trending-container span{
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-header h1{
+    margin-top: 0px;
+}
+
+.trending-cards{
+    display: flex;
+    gap: 12px;
+}
+
+.card{
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card .thumb{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img{
+    width: 50px;
+}
+
+.image-top-games{
+    border-radius: 20px;
+    /*width: 300px;*/
+}
+
+.trending-container-top-games{
+    padding: 25px 50px;
+    background-color: #EEEEEE;
+    border-radius: 50px;
+}
+
+.a{
+    text-align: center;
+}
+
+.b{
+    text-align: center;
+}
+
+#c{
+    position: relative;
+    left: 25%;
+    padding: 10px 15px;
+}
+
+.trending-container-top-games span{
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.trending-header-top-categorie{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trending-header-top-categorie span{
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.trending-header-top-categorie h1{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.card-top-categorie{
+    
+    width: 235px;
+    height: 250px;
+    background-color: #0171f9;
+    border-radius: 20px 20px;
+}
+
+.card-top-categorie p{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.trending-cards-top-categorie{
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer{
+    margin-top: 200px;
+    text-align: center;
+    background-color: #0171f9;
+    padding: 50px 0px;
+    color: #ffffff;
+    border-radius: 100px 100px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
